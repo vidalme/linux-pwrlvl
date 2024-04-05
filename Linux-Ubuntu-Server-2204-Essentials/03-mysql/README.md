@@ -1,4 +1,9 @@
-# Configuração do Apache2 Server no Ubuntu Server 22.04.x LTS Projeto Bora para Prática
+# Configuração do MySQL Server no Ubuntu Server 22.04.x LTS Projeto Bora para Prática
+
+<a href='https://github.com/vaamonde/ubuntu-2204/blob/main/03-services/03-mysql-server.md'>github</a> |
+<a href='https://www.youtube.com/watch?v=7tl4TuxhuKg'>youtube</a>
+
+<p>pti@2018
 
 <h3>Conteúdo estudado nesse desafio:</h3>
 Conteúdo estudado nesse desafio:
@@ -15,13 +20,3 @@ Conteúdo estudado nesse desafio:
 <li>11_ Acessando Remotamente o MySQL Server pelo MySQL Workbench;
 <li>12_ Acessando Remotamente o MySQL Server pelo VSCode;
 <li>13_ Desafio do Banco de Dados MySQL Server.
-
-
-
-<h3>#05_ Localização dos Arquivos de Configuração do MySQL Server</h3>
-
-	/etc/mysql                          <-- Diretório de configuração do SGBD MySQL Server
-	/etc/mysql/mysql.conf.d/mysqld.cnf  <-- Arquivo de configuração do Servidor SGBD do MySQL Server
-	/etc/mysql/mysql.conf.d/mysql.cnf   <-- Arquivo de configuração do Cliente SGBD do MySQL Client
-	/var/log/mysql                      <-- Diretório padrão dos Logs do SGBD Mysql Server
-	/var/lib/mysql                      <-- Diretório da Base de Dados padrão do SGBD MySQL Server
