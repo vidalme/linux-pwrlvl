@@ -1,0 +1,35 @@
+## All available configuration options, their descriptions and default values:
+## https://github.com/netdata/netdata/tree/master/src/go/collectors/go.d.plugin/modules/httpcheck#readme
+
+#jobs:
+#  - name: jira
+#    url: https://jira.localdomain/
+#
+#  - name: cool_website
+#    url: http://cool.website:8080/home
+#    status_accepted: [200, 204]
+#    response_match: <title>My cool website!<\/title>
+#    timeout: 2
+jobs:
+  - name: apache
+    url: http://54.165.167.90/
+  - name: node01
+    url: http://54.165.167.90:3000
+  - name: node02
+    url: http://54.165.167.90:3030
+  - name: wp
+    url: http://54.165.167.90/wp
+  - name: newsite
+    url: http://54.165.167.90/newsite  
+  - name: tomcat
+    url: http://54.165.167.90:8080
+  - name: tomcat
+    url: http://54.165.167.90:8080/agenda
+  - name: netdata_local
+    url: http://54.165.167.90:19999
+  - name: netdata_cloud
+    url: https://app.netdata.cloud/spaces/andrinho-space/rooms/all-nodes/home?utm_source=website&utm_content=top_navigation_sign_in#metrics_correlation=false&after=-900&before=0&utc=America%2FFortaleza&offset=-3&timezoneName=Cayenne%2C%20Fortaleza&modal=&modalTab=&modalParams=&selectedIntegrationCategory=deploy.operating-systems&force_play=false
+  - name: webmin 
+    url: http://54.165.167.90:10000
+  - name: cockpit
+    url: http://54.165.167.90:9090
