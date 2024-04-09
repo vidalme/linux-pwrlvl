@@ -1,4 +1,4 @@
-<h3>Configuração do Apache TomCAT Server no Ubuntu Server 22.04.x LTS Projeto Bora para Prática</h3>
+<h3>Configuração do Apache TomCAT Server no Ubuntu Server 22.04.x LTS</h3>
 
 <a href='https://github.com/vaamonde/ubuntu-2204/blob/main/03-services/06-tomcat-server.md'>github</a> |
 <a href='https://www.youtube.com/watch?v=TcC7cijfub0'>youtube</a>
